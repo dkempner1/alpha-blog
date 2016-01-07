@@ -1,4 +1,4 @@
-$navbar-default-bg: #FFBB60;
+$navbar-default-bg: #FAA316;
 
 
 @import "bootstrap-sprockets";
@@ -40,7 +40,7 @@ $navbar-default-bg: #FFBB60;
   letter-spacing: -1px;
 }
 
-.jumbotron {
+.jumbotron h2{
   color: #fff;
   font-family: "Courier New";
   margin-bottom: 15px;
@@ -53,10 +53,11 @@ $navbar-default-bg: #FFBB60;
   background-color: #000;
   border-color: #000;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-top: 400px;
 }
 .btn-lg {
-  background-color: #28AEFF;
-  border-color: #28AEFF;
+  background-color: #559D7D;
+  border-color: #559D7D;
   color: #000;
 }
 
