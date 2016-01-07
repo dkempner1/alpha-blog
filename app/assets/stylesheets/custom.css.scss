@@ -26,17 +26,25 @@ $navbar-default-bg: #FFBB60;
 }
 
 .jumbotron {
-  background-image: asset-url('bg02.jpg');
+  background-image: asset-url('beet.jpg');
   background-size: cover;
-  height: 550px;
+  background-repeat: no-repeat;
+  height: 700px;
 }
 
 .jumbotron h1 {
   color: #fff;
+  font-family: "Courier New";
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
   letter-spacing: -1px;
-  font-weight: bold;
+}
+
+.jumbotron {
+  color: #fff;
+  font-family: "Courier New";
+  margin-bottom: 15px;
+  margin-top: -10px;
 }
 
 
@@ -44,6 +52,7 @@ $navbar-default-bg: #FFBB60;
   font-size: 1.7em;
   background-color: #000;
   border-color: #000;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .btn-lg {
   background-color: #28AEFF;
