@@ -11,7 +11,7 @@ class CreateArticleTest < ActionDispatch::IntegrationTest
     get new_article_path
     assert_template 'articles/new'
     assert_difference 'Article.count', 1 do
-      post_via_redirect articles_path, article: {title: "Test Article Creation", description: "Here is my description", user_id: @user_id}
+      post_via_redirect articles_path, article: {title: "Test Article Creation", description: "Here is my description", user_id: @user.id}
     end
     assert_template 'articles/show'
     assert_match "Here is my description", response.body
