@@ -56,9 +56,7 @@ $navbar-default-bg: #FAA316;
   margin-top: 400px;
 }
 .btn-lg {
-  background-color: #559D7D;
-  border-color: #559D7D;
-  color: #000;
+  color: #fff;
 }
 
 .footer {
@@ -107,6 +105,7 @@ footer  li {
 .article-title {
   font-weight: bold;
   font-size: 1.5em;
+  
 }
 
 .article-body {
@@ -118,4 +117,21 @@ padding-bottom: 15px;
 .listing {
   list-style: none;
   padding-left: 0px;
+}
+
+.badge {
+  background-color: #FAA316;
+  padding-left: 15px;
+}
+.badge a {
+  color: #fff;
+}
+
+.input_checkbox input {
+  width: auto !important;
+}
+label {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 10px;
 }
