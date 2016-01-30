@@ -3,6 +3,8 @@
   <% if logged_in? and current_user.admin? %>
   <div class="row">
     <span class="badge"><%= link_to "Edit Category Name", edit_category_path(@category) %></span>
+
+    <%= link_to "Delete this category", category_path(@category), method: :delete, data: { confirm: "Are you sure you want to delete the category?"}, class: "btn btn-xs btn-danger" %>
   </div>
   <% end %>
   <%= will_paginate @category_articles %>
